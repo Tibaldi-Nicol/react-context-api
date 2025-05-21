@@ -1,6 +1,6 @@
-// components/PostsList.jsx
+
 import { useContext } from "react";
-import { PostsContext } from "../App"; // o da "../context/PostsContext"
+import { PostsContext } from "../context/PostsContext"; 
 import PostCard from "./PostCard";
 
 function PostsList() {

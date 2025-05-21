@@ -1,8 +1,7 @@
 // App.jsx
-import { createContext, useState } from "react";
+import { useState } from "react";
 import PostsPage from "./pages/PostsPage";
-
- const PostsContext = createContext();
+import { PostsContext } from "./context/PostsContext"; 
 
 function App() {
   const [posts] = useState([
